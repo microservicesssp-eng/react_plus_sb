@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/greetings")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:5173")//<-- что означает @CrossOrigin
 public class GreetingController {
     private final GreetingRepository repository;
 
